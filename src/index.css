@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    background-color: #f7f6ff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    height: 100%;
+}
+
+.ant-layout,
+#root {
+    height: 100%;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.side_block {
+    width: 200px;
+    color: saddlebrown;
+    font-size: 22px;
+    font-family: "Apple SD Gothic Neo", cursive;
+}
+.navigate {
+    margin-top: 16px;
+    margin-left: 350px;
+}
+
+.navigate a {
+    padding-bottom: 10px;
+    color: royalblue;
+    font-size: 25px;
+    font-family: "Apple SD Gothic Neo", cursive;
+}
+
+.sidenav {
+    height: 100%;
+    width: 270px; /* Установите ширину боковой панели */
+    position: fixed; /* Фиксированная боковая панель (оставайтесь на месте при прокрутке) */
+    z-index: 1; /* Оставайтесь с верху */
+    top: 0; /* Оставайтесь на вершине */
+    left: 0;
+    background-color: #b6d4ff; /* Черный */
+    padding-top: 20px;
+}
+
+/* Ссылки в меню навигации */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 23px;
+    color: #818181;
+    display: block;
+    font-family: "Apple SD Gothic Neo", cursive;
+}
+
+/* При наведении курсора мыши на навигационные ссылки измените их цвет */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.tittle {
+    margin-left: 350px;
+    font-family: "Apple SD Gothic Neo", cursive;
+}
+
+.commands {
+    border: #818181 3px solid;
+    margin-left: 350px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    width: 350px;
+    height: 80px;
+    vertical-align: middle;
+}
+.commands div {
+    margin-top: 9px;
+}
+.commands a {
+    font-size: 23px;
+    color: #818181;
+    font-family: "Apple SD Gothic Neo", cursive;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.list-product {
+    margin-left: 350px;
+}
+
+.product-wrapper {
+    display: block;
+    width: 300px;
+    height: 80px;
+    float: left;
+    transition: width 0.2s;
+    background-color: lavender;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+.product-wrapper a {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.form {
+    width: 300px;
+    height: 30px;
+    margin-left: 330px;
+    margin-top: 250px;
+}
+input {
+    height: 25px;
+    padding: 4px 10px;
+    border: 0;
+    font-size: 16px;
+}
+.search {
+    width: 305px;
+    margin-left: 370px;
+    margin-top: 50px;
+}
+.submit {
+    width: 78px;
+    height: 33px;
+    background-color: #1c87c9;
+    color: #ffffff;
+}
+
+.details {
+    padding-left: 30px;
+}
+
+.GoodCard {
+    margin-left: 350px;
+    background-color: lavender;
+    height: 500px;
+    width: 800px;
+}
+
+.GoodName {
+    padding-top: 30px;
+    padding-left: 20px;
+    font-family: "Apple SD Gothic Neo", cursive;
+    font-size: 50px;
+    color: #282c34;
+}
+.GoodCompany {
+    margin-top: 60px;
+    font-family: "Apple SD Gothic Neo", cursive;
+    font-size: 40px;
+    height: 50px;
+}
+
+.GoodPrice {
+    font-family: "Apple SD Gothic Neo", cursive;
+    margin-top: 40px;
+    padding-top: 40px;
+    font-size: 40px;
+    height: 40px;
+    color: #f1f1f1;
+}
+.GoodPrice a {
+    background-color: #1c87c9;
+}
+
+.GoodQuantity {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.RegisterForm {
+    margin-left: 300px;
+    padding-left: 40px;
+    font-size: 40px;
+    height: 40px;
+    color: #f1f1f1;
+}
+
+.RegisterForm_button {
+    width: 200px;
+    height: 40px;
+    margin-left: 350px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: "Apple SD Gothic Neo", cursive;
+    color: #f1f1f1;
+    background-color: steelblue;
+}
+
+.RegisterForm_button:hover {
+    background-color: #b6d4ff;
+}
+
+.RegisterForm input {
+    height: 40px;
+}
+
+.SuccessForm a {
+    font-family: "Apple SD Gothic Neo", cursive;
+    font-size: 30px;
+    color: steelblue;
+    margin-left: 350px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
