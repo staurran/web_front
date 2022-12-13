@@ -39,7 +39,7 @@ export default function Basket() {
         }))}
 
         try {
-            await axios.post("/basket", payload, {
+            await axios.post("/order", payload, {
                 headers: {
                     Authorization: `bearer ${token}`
                 }
